@@ -3,23 +3,44 @@
         {
             "id": 1,
             "title": "andykirby.co.uk",
-            "image": "https://",
+            "image": "/assets/images/portfolio.png",
             "description": "Personal website/portfolio hosted on a NodeJS Virtual Private Server incorporating a JWT authorised JSON database.",
-            "github": "https://github.com/Andy-Kirby/andykirby.co.uk"
+            "link": "http://andykirby.co.uk",
+            "github": "https://github.com/Andy-Kirby/andykirby.co.uk",
+            "case": "/?id=1",
+            "image1": "",
+            "image2": "",
+            "image3": "",
+            "body": "",
+            "tags": "Javascript"
         },
         {
             "id": 2,
-            "title": "andykirby.co.uk(2)",
-            "image": "https://2",
-            "description": "222Personal website/portfolio hosted on a NodeJS Virtual Private Server incorporating a JWT authorised JSON database.",
-            "github": "https://github.com/Andy-Kirby/andykirby.co.uk"
+            "title": "Coming soon",
+            "image": "/assets/images/portfolio.png",
+            "description": "Work in progress",
+            "link": "",
+            "github": "https://github.com/Andy-Kirby/2",
+            "case": "/?id=2",
+            "image1": "",
+            "image2": "",
+            "image3": "",
+            "body": "",
+            "tags": "Javascript"
         },
         {
             "id": 3,
-            "title": "andykirby.co.uk(3)",
-            "image": "https://3",
-            "description": "333Personal website/portfolio hosted on a NodeJS Virtual Private Server incorporating a JWT authorised JSON database.",
-            "github": "https://github.com/Andy-Kirby/andykirby.co.uk"
+            "title": "Coming soon",
+            "image": "/assets/images/portfolio.png",
+            "description": "Card 3!",
+            "link": "andykirby.co.uk",
+            "github": "https://github.com/Andy-Kirby/3",
+            "case": "/?id=3",
+            "image1": "",
+            "image2": "",
+            "image3": "",
+            "body": "",
+            "tags": "Javascript"
         }
     ]
 }

@@ -3,12 +3,288 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    <title>Andy Kirby</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <h1>INDEX.HTML</h1>
-    <a href="./login">LOGIN</a>
+  <nav class="navbar">
+      <a href=#index.html><img src="assets/logo.svg" id="logo-btn"></a>
+      <button class="hamburger hamburger--slider" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+          <div class="menu">
+            <ul class="menu-list">
+                <li><a href="#">WELCOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <div class="icon-container" style="display:flex;margin-left:73%;margin-top:40px;">
+              <a href=https://www.instagram.com/andykirby.uk class="contact-instagram"><img src="assets/instagram.svg" id="instagram-btn"></a>
+              <a href=https://github.com/Andy-Kirby class="contact-github"><img src="assets/github.svg" id="github-btn"></a>
+              <a href=mailto:info@andykirby.co.uk class="contact-mail"><img src="assets/email.svg" id="mail-btn"></a>
+            </div>
+          </>
+
+        </div>
+  </nav>
+    
+  <section class="intro">
+      <!-- <a href=#intro><img src="assets/logo.svg" id="logo-btn"></a>
+      <button class="hamburger hamburger--slider" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button> -->
+      <div class="intro-head animate__animated animate__fadeInUp">DESIGN<br>ENGINEERING & DEVELOPMENT</div>
+      <div class="animate__animated animate__fadeInUp" style="margin-left:140px;background:#0c20d1;height:5px;width:60px;"></div>
+      <div class="intro-body animate__animated animate__fadeInUp">Hi, I'm Andy Kirby… I am a software & application developer from Leeds, UK.</div>
+      <div class="center"><a href="#about">
+        <button class="btn">
+          <svg width="220px" height="60px" viewBox="0 0 220 60">
+            <polyline points="219,1 219,59 1,59 1,1 219,1" class="bg-line" />
+            <polyline points="219,1 219,59 1,59 1,1 219,1" class="hl-line" />
+          </svg>
+          <span>LETS TAKE A LOOK...</span>
+        </button>
+      </div>
+      <a href=#contact><img src="assets/contact.svg" id="contact-btn"></a>
+  </section>
+  <section class="about" id="about">
+    <div class="subheader-container">
+      <div class="subheader-letter">A</div>
+      <div class="sub-header">ABOUT ME</div>
+    </div>  
+    <div class="about-section">
+      <div class="about-container">
+        <div class="myphoto"><img src="assets/images/andykirby.png" id="myphoto"></div>
+        <div style="background:#dfdfdf;height:3px;width:60px;"></div>
+        <p class="about-text">"With a serious <b>passion for code</b> I specialise in
+          cross-platform desktop software as well as <b>iOS & Android</b> mobile application development using <b>React-Native.</b><br><br>
+        I also have a side-line addiction for <b>Python</b> automation and machine learning (AI)."</p>
+        <div style="background:#dfdfdf;height:3px;width:60px;"></div>
+        <div class="signature">Andrew Kirby</div>
+        <div class="print-name">ANDY KIRBY</div>
+      </div>
+      <div class="skills-container">TECHNICAL SKILLS
+        <div style="background:#cccccc;height:3px;width:60px;margin-top:10px;"></div>
+        <div class="skill-subheader" style="padding-top:5px;">LANGUAGES:</div>
+        <div class="skill-box">
+          <div class="skill-col">
+            <div class="skill">
+              <img src="/assets/images/icons/python.svg"></img>
+              <div class="bullet">
+                <div class="skill-name">Python</div>
+              </div>
+            </div>
+            <div class="skill">
+              <img src="/assets/images/icons/javascript.svg"></img>
+              <div class="bullet">
+                <div class="skill-name">Javascript</div>
+              </div>
+            </div>
+            <div class="skill">
+              <img src="/assets/images/icons/sql.svg"></img>
+              <div class="bullet">
+                <div class="skill-name">(no)SQL</div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-col">
+            <div class="skill">
+              <img src="/assets/images/icons/html.svg"></img>
+              <div class="bullet">
+                <div class="skill-name">HTML5</div>
+              </div>
+            </div>
+            <div class="skill">
+              <img src="/assets/images/icons/css.svg"></img>
+              <div class="bullet">
+                <div class="skill-name">CSS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-subheader">TOOLS, FRAMEWORKS & LIBRARIES:</div>
+        <div class="skill-box">
+          <div class="skill-col">
+            <div class="skill">
+              <img src="/assets/images/icons/react.svg"></img>
+              <div class="bullet">
+                <div class="skill-name">React-Native</div>
+              </div>
+            </div>
+            <div class="skill">
+              <img src="/assets/images/icons/react.svg"></img>
+              <div class="bullet">
+                <div class="skill-name">ReactJS</div>
+              </div>
+            </div>
+            <div class="skill">
+              <img src="/assets/images/icons/node.svg"></img>
+              <div class="bullet">
+                <div class="skill-name">NodeJS</div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-col">
+            <div class="skill">
+              <img src="/assets/images/icons/express.svg"></img>
+              <div class="bullet">
+                <div class="skill-name">Express API</div>
+              </div>
+            </div>
+            <div class="skill">
+              <img src="/assets/images/icons/pyqt5.svg"></img>
+              <div class="bullet">
+                <div class="skill-name">PyQT5</div>
+              </div>
+            </div>
+            <div class="skill">
+              <img src="/assets/images/icons/github.svg"></img>
+              <div class="bullet">
+                <div class="skill-name">GitHub</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-subheader">SOFTWARE:</div>
+        <div class="skill-box">
+          <div class="skill-col">
+            <div class="skill">
+              <img src="/assets/images/icons/apple.svg"></img>
+              <div class="bullet">
+                <div class="skill-name">MacOS</div>
+              </div>
+            </div>
+            <div class="skill">
+              <img src="/assets/images/icons/windows.svg"></img>
+              <div class="bullet">
+                <div class="skill-name">Windows</div>
+              </div>
+            </div>
+            <div class="skill">
+              <img src="/assets/images/icons/vscode.svg"></img>
+              <div class="bullet">
+                <div class="skill-name">VS Code</div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-col">
+            <div class="skill">
+              <img src="/assets/images/icons/linux.svg"></img>
+              <div class="bullet">
+                <div class="skill-name">Linux (Ubuntu Server)</div>
+              </div>
+            </div>
+            <div class="skill">
+              <img src="/assets/images/icons/sublime.svg"></img>
+              <div class="bullet">
+                <div class="skill-name">Sublime Text</div>
+              </div>
+            </div>
+            <div class="skill">
+              <img src="/assets/images/icons/adobe.svg"></img>
+              <div class="bullet">
+                <div class="skill-name">Adobe XD</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="background:#cccccc;height:3px;width:60px;margin-top:30px;"></div>
+      </div>
+    </div>
+  </section>
+  <section class="projects" id="projects">
+    <div class="subheader-container">
+      <div class="projects-header">PROJECTS</div>
+      <div class="projects-letter">P</div>
+    </div>
+    <div class="project-container">
+      <div class="selector-container">
+        <button class="selector">ALL</button>
+        <button class="selector">PYTHON</button>
+        <button class="selector">JAVASCRIPT</button>
+        <button class="selector">REACT-NATIVE</button>
+      </div>
+      <div class="glide" style="margin-top:50px;">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides" style="margin:0px;"></ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow--left" data-glide-dir="<"><i class="bi bi-chevron-compact-left"></i></button>
+          <div data-glide-el="controls">
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+              <button class="glide__bullet" data-glide-dir="=0"></button>
+              <button class="glide__bullet" data-glide-dir="=1"></button>
+              <button class="glide__bullet" data-glide-dir="=2"></button>
+            </div>
+          </div>
+          <button class="glide__arrow--right" data-glide-dir=">"><i class="bi bi-chevron-compact-right"></i></button>
+        </div>
+      </div>      
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="subheader-container">
+      <div class="sub-header">CONTACT</div>
+      <div class="subheader-letter">C</div>
+    </div>
+    <div class="contact-card" id="contact-card">
+      <form id="contact-form" class="needs-validation" novalidate>
+        <div class="row mt-5">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name" id="First_name" required>
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name" id="Last_name" required>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col">
+            <input type="email" class="form-control" placeholder="Email address" id="Email_address" required>
+          </div>
+          <div class="col">
+            <input type="telephone" class="form-control" placeholder="Telephone" id="Telephone" required>
+          </div>
+        </div>
+        <div class="mt-4">
+          <textarea class="form-control" id="message" placeholder="Message" rows="5" style="resize: none;" required></textarea>
+          <div class="invalid-feedback" style="position:absolute; margin-top:0px;">
+            Please enter a message.
+          </div>
+        </div>
+        <button type="submit" class="submit" id="submit">SUBMIT</button>
+      </form>
+    </div>
+  </section>
+    <footer>
+      <div class="copyright" style="padding-top: 126px;font-size: 25px;">STAY IN TOUCH</div>
+      <div style="margin-left:50%;transform: translateX(-50%);background:#ffffff;height:2px;width:60px;margin-bottom: 10px;"></div>
+      <div class="icon-container">
+        <a href=https://www.instagram.com/andykirby.uk class="contact-instagram"><img src="assets/instagram.svg" id="instagram-btn"></a>
+        <a href=https://github.com/Andy-Kirby class="contact-github"><img src="assets/github.svg" id="github-btn"></a>
+        <a href=mailto:info@andykirby.co.uk class="contact-mail"><img src="assets/email.svg" id="mail-btn"></a>
+      </div>
+      <div class="copyright">ANDREW KIRBY ©2021&emsp;&#8226;&emsp;<a href="./admin">ADMIN</a></div>
+    </footer>
+   
     <script src="index.js"></script>
 </body>
 </html>
